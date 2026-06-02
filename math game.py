@@ -12,27 +12,28 @@ print()
 if question1 == sum:
     print("🎉 Correct!")
     score+=1
-    print("score =",score)
+    print(f"score = {score}")
 else:
     print("❌ Wrong! The correct sum was", sum)
-    score+=0
-    print("score =",score)
+    print(f"score = {score}")
 
 print()
+input("press enter to continue to the next round...")
+os.system("cls")
 
-
-yes = input("ohk! let me know if you want to play again..: ")
+yes = input("oaky! let me know if you want to play again..: ")
 print()
 
 if yes == "yes":
-    print("wow..i apperitiate your dedication")
+    print("wow..i appreciate your dedication")
 else:
     print("ohkk!as you wish!")
     exit()
 
 if yes == "yes":
+    os.system("cls")
     print()
-    print("let's play a multiply game!")
+    print("let's play a multiplication game!")
     print()
 
 que = int(input("2*3= "))
@@ -43,11 +44,11 @@ if que == quesy:
             print()
             
             score+=1
-            print("score =",score)
+            print(f"score = {score}")
 else:
     print("no.. you are again wrong...this time the correct number was", quesy)
     score -=1
-    print("score =",score)
+    print(f"score = {score}")
 
 print()
 print("thanks for playing")
