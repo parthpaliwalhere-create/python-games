@@ -1,10 +1,22 @@
-# A python games collection..
+Python Games 🎮
 
-A collection of simple games built using python as part of my programming journey.
+This repository contains some beginner Python game projects created while learning programming.
 
-## Games Included
-- Riddle game
-- Maths game
-- Guessing game
+Games Included
+🧩 Riddle Game
+🔢 Guessing Game
+➕ Math Game
+Features
+Difficulty modes
+Score systems
+Lives system
+Replay options
+Console-based gameplay
+Technologies Used
+Python
+Random module
+Loops and functions
+Conditional logic
+About
 
-More games will be added in the future as I continue learning and building new projects.
+These projects were built for practice and learning purposes while improving Python programming skills.
